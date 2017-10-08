@@ -26,7 +26,7 @@ public class Agent {
 
     public static File createAgent(Class<?> agent, Class<?>... resources) throws IOException {
         File jarFile = File.createTempFile("agent", ".jar");
-        jarFile.deleteOnExit();
+        jarFile.deleteOnExit();dyhshdhsjsjs
         Manifest manifest = new Manifest();
         Attributes mainAttributes = manifest.getMainAttributes();
         mainAttributes.put(Name.MANIFEST_VERSION, "1.0");
